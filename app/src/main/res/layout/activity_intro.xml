@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img"
+    android:orientation="vertical"
+    tools:context=".IntroActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="가위 바위 보 게임"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginTop="420sp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/user_name"
+        style=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:hint="유저 명을 입력해주세요"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <android.widget.Button
+        android:id="@+id/start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게임 시작"
+        android:textSize="40dp"
+        android:background="@drawable/color_change"/>
+
+
+</LinearLayout>
