@@ -30,7 +30,7 @@ public class EndActivity extends AppCompatActivity {
         end_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish(); //어플 종료
+                System.exit(0); // 어플 종료
             }
         });
 
