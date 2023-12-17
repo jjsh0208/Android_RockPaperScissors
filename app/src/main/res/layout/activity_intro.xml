@@ -14,7 +14,7 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="가위 바위 보 게임"
-        android:textSize="50sp"
+        android:textSize="45sp"
         android:textStyle="bold"
         android:layout_marginTop="420sp"
         android:textColor="@color/white"/>
@@ -28,7 +28,7 @@
         android:gravity="center"
         android:hint="유저 명을 입력해주세요"
         android:textColorHint="@color/white"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:textColor="@color/white"/>
 
     <android.widget.Button
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="게임 시작"
-        android:textSize="40dp"
+        android:textSize="35dp"
         android:background="@drawable/color_change"/>
 
 

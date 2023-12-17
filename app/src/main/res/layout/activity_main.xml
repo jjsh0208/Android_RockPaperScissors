@@ -16,11 +16,12 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/comp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="comp"
             android:gravity="center"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:layout_marginBottom="10sp"
             android:textColor="@color/black"
           />
@@ -99,7 +100,7 @@
             android:layout_height="wrap_content"
             android:text="user"
             android:gravity="center"
-            android:textSize="40sp"
+            android:textSize="35sp"
             android:textColor="@color/black"
             />
 
@@ -108,14 +109,18 @@
    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-    <android.widget.Button
-        android:id="@+id/end_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20sp"
-        android:layout_marginLeft="300sp"
-        android:text="그만하기"
-        android:background="@drawable/color_change"/></LinearLayout>
+       android:gravity="center"
+        android:orientation="horizontal">
+       <android.widget.Button
+           android:id="@+id/record_btn"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+            android:gravity="center"
+           android:layout_marginTop="5sp"
+           android:layout_marginLeft="210sp"
+           android:text="전적확인 및 게임 종료"
+           android:background="@drawable/color_change"/>
+
+   </LinearLayout>
 
 </LinearLayout>
